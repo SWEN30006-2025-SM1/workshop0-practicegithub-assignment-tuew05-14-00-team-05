@@ -14,7 +14,9 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
-        // TODO: Implement this method
-        return 5;
+        if (b == 0){
+            return 0.0;
+        }
+        return a / b;
     }
 }
